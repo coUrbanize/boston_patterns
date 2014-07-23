@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blog Prototype</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- libraries -->
+		<!--  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+		<script src="lib/jquery.min.js"></script>
+		<!-- <script src="//d3js.org/d3.v3.min.js"></script> -->
+		<script src="lib/d3.v3.js"></script>
+		<script src="lib/leaflet/leaflet.js"></script>
+
+
+		<!-- data -->
+		<script type="text/javascript" src="data/boston.json"></script>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="lib/leaflet/leaflet.ie.css" /><![endif]-->
+
+	</head>
+
+	<body>
+		<div id="map"></div>
+
+		<!-- locations of charts -->
+		<svg class="chart" id="chart_density"></svg>
+		<svg class="chart" id="chart_height"></svg>
+	</body>
+
+	<!-- make map and charts -->
+	<script src="js/bar_chart.js" ></script>
+	<script src="js/map.js" ></script>
+
+</html>
