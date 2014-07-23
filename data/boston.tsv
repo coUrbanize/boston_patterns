@@ -1,0 +1,18 @@
+id	neighborhood	building_height	density
+0	"Allston-Brighton"	29.285	18305
+1	"Back Bay"	85.581	32685
+2	"Beacon Hill"	63.017	30282
+3	"Charlestown"	35.019	12191
+4	"Dorchester"	28.765	14933
+5	"East Boston"	31.016	8910
+6	"Fenway"	72.211	39005
+7	"Financial District"	85.209	24442
+8	"Hyde Park"	21.743	6488
+9	"Jamaica Plain"	28.877	9520
+10	"Mattapan"	26.694	10175
+11	"Mission Hill"	40.072	31067
+12	"Roslindale"	25.373	11809
+13	"Roxbury"	33.545	19180
+14	"South Boston"	34.702	13876
+15	"South End"	58.744	32726
+16	"West Roxbury"	22.885	6156
